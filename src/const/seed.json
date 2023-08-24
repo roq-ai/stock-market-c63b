@@ -1,0 +1,1952 @@
+[
+  {
+    "stock": [
+      {
+        "id": "14c972bb-b7a9-4505-beb1-cb3246f44ddd",
+        "name": "Apple Inc.",
+        "open_price": 0.6449950900860131,
+        "close_price": 0.07811924535781145,
+        "high": 0.591050464194268,
+        "low": 0.5551302162930369,
+        "created_at": "2023-08-24T15:59:23.545Z",
+        "updated_at": "2023-08-23T23:33:43.919Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e00cfb9d-ff78-43f5-9156-3fdded430fe4",
+        "name": "Microsoft Corporation",
+        "open_price": 0.5745399952866137,
+        "close_price": 0.7933640151750296,
+        "high": 0.3082088192459196,
+        "low": 0.5944545937236398,
+        "created_at": "2023-08-24T03:48:56.894Z",
+        "updated_at": "2023-08-24T09:19:05.212Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "019fd92a-fdbf-47d4-a0aa-cd493276fe13",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.07258556876331568,
+        "close_price": 0.26031839731149375,
+        "high": 0.6333262657281011,
+        "low": 0.027515879832208157,
+        "created_at": "2023-08-24T10:16:05.432Z",
+        "updated_at": "2023-08-24T07:14:01.077Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1ef8a36c-fb06-4dcd-87c3-e579f3f13e30",
+        "name": "Google LLC",
+        "open_price": 0.47123080445453525,
+        "close_price": 0.14198095491155982,
+        "high": 0.7651407613884658,
+        "low": 0.9500179793685675,
+        "created_at": "2023-08-24T10:39:08.478Z",
+        "updated_at": "2023-08-24T10:38:44.351Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0d6e1fba-bd4f-4369-adec-63303da93482",
+        "name": "Facebook Inc.",
+        "open_price": 0.602598418481648,
+        "close_price": 0.5854840835090727,
+        "high": 0.8073115616571158,
+        "low": 0.0939963401760906,
+        "created_at": "2023-08-24T09:46:11.498Z",
+        "updated_at": "2023-08-24T16:23:24.158Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "73c7422f-33d1-4f3c-ac4c-5d113941340b",
+        "name": "Linear Regression",
+        "description": "A machine learning algorithm for regression analysis",
+        "created_at": "2023-08-24T03:32:27.279Z",
+        "updated_at": "2023-08-24T04:04:37.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70a690cc-c2f7-48cc-86d8-f02f3c0710be",
+        "name": "Random Forest",
+        "description": "An ensemble learning method for classification tasks",
+        "created_at": "2023-08-24T11:25:22.283Z",
+        "updated_at": "2023-08-24T03:35:30.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5298753-0695-4bcf-a3af-36e37b5d5081",
+        "name": "Support Vector Machine",
+        "description": "A supervised learning algorithm for binary classification",
+        "created_at": "2023-08-24T01:49:09.528Z",
+        "updated_at": "2023-08-24T15:37:57.533Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "517b17c8-8b2d-449b-a1a2-ae1c434d2e05",
+        "name": "K-Means Clustering",
+        "description": "An unsupervised learning algorithm for clustering data points",
+        "created_at": "2023-08-24T01:58:29.387Z",
+        "updated_at": "2023-08-24T07:22:17.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b00337f-70ba-47d8-bba4-f1b2c125a7d9",
+        "name": "Neural Network",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-24T18:26:49.863Z",
+        "updated_at": "2023-08-24T17:18:40.968Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "15f55cda-3d0c-4562-92be-742200bd6d39",
+        "name": "Descriptive Statistics",
+        "description": "Statistical analysis techniques to summarize and interpret data",
+        "created_at": "2023-08-24T12:09:51.565Z",
+        "updated_at": "2023-08-23T23:46:36.541Z",
+        "algorithm_id": "517b17c8-8b2d-449b-a1a2-ae1c434d2e05",
+        "stock_id": "0d6e1fba-bd4f-4369-adec-63303da93482"
+      },
+      {
+        "id": "8aefbd81-743e-41f7-bf9b-5e599502d310",
+        "name": "Hypothesis Testing",
+        "description": "Statistical inference to make decisions based on data",
+        "created_at": "2023-08-24T08:42:50.025Z",
+        "updated_at": "2023-08-23T22:09:59.868Z",
+        "algorithm_id": "9b00337f-70ba-47d8-bba4-f1b2c125a7d9",
+        "stock_id": "019fd92a-fdbf-47d4-a0aa-cd493276fe13"
+      },
+      {
+        "id": "2f2ba1ed-3d8d-40b3-9ec0-fbb8a879fc00",
+        "name": "Regression Analysis",
+        "description": "Modeling the relationship between variables",
+        "created_at": "2023-08-24T00:40:22.717Z",
+        "updated_at": "2023-08-24T09:09:05.796Z",
+        "algorithm_id": "9b00337f-70ba-47d8-bba4-f1b2c125a7d9",
+        "stock_id": "0d6e1fba-bd4f-4369-adec-63303da93482"
+      },
+      {
+        "id": "c81a3345-6a7b-40a5-bd6b-251e98efc929",
+        "name": "Time Series Forecasting",
+        "description": "Predicting future values based on historical data",
+        "created_at": "2023-08-24T06:17:36.247Z",
+        "updated_at": "2023-08-24T01:52:25.038Z",
+        "algorithm_id": "73c7422f-33d1-4f3c-ac4c-5d113941340b",
+        "stock_id": "14c972bb-b7a9-4505-beb1-cb3246f44ddd"
+      },
+      {
+        "id": "2a68df98-ce55-4d64-b22f-6d787523f32e",
+        "name": "Cluster Analysis",
+        "description": "Grouping similar data points together",
+        "created_at": "2023-08-24T12:29:26.077Z",
+        "updated_at": "2023-08-24T04:45:00.716Z",
+        "algorithm_id": "70a690cc-c2f7-48cc-86d8-f02f3c0710be",
+        "stock_id": "0d6e1fba-bd4f-4369-adec-63303da93482"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8fad5bff-eecf-4793-8229-eb97960c895a",
+        "email": "Stanton77@gmail.com",
+        "firstName": "Joseph",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71125190",
+        "tenantId": null
+      },
+      {
+        "reference": "0b483325-4f26-4056-bb55-3b4b60bd6801",
+        "email": "Augustine.Douglas59@gmail.com",
+        "firstName": "Devante",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/816.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f921ec9f-281b-40d4-a50a-339c34151a0b",
+        "email": "Payton96@hotmail.com",
+        "firstName": "Audra",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2515085",
+        "tenantId": null
+      },
+      {
+        "reference": "4db5ef46-25ea-4e00-a95e-f88faa5abb23",
+        "email": "Carson.Muller6@gmail.com",
+        "firstName": "Florine",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/709.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "572ef35b-75ea-4cb2-9b66-60d66daac9fd",
+        "email": "Andreane.Hamill6@hotmail.com",
+        "firstName": "Kelly",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/959.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "4cbfb2cf-f1c0-4c6d-b740-086ac217ef1a",
+        "name": "Apple Inc.",
+        "open_price": 0.8595016393810511,
+        "close_price": 0.7867572638206184,
+        "high": 0.24109526700340211,
+        "low": 0.9827094802167267,
+        "created_at": "2023-08-24T13:58:34.776Z",
+        "updated_at": "2023-08-24T00:26:09.859Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f66f638-70d2-4dfd-94c6-9100f44ddd49",
+        "name": "Microsoft Corporation",
+        "open_price": 0.9506532119121403,
+        "close_price": 0.5668830997310579,
+        "high": 0.21662912936881185,
+        "low": 0.22970271948724985,
+        "created_at": "2023-08-23T22:14:58.461Z",
+        "updated_at": "2023-08-24T09:23:30.616Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "21259dc7-cfee-4131-aaab-8a8229233f97",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.3598847440443933,
+        "close_price": 0.8186811245977879,
+        "high": 0.3482599596027285,
+        "low": 0.9516604079399258,
+        "created_at": "2023-08-24T04:03:11.816Z",
+        "updated_at": "2023-08-24T13:17:58.322Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4a5886eb-38cb-4743-8593-025d6cd80fd6",
+        "name": "Tesla Inc.",
+        "open_price": 0.6328700361773372,
+        "close_price": 0.026531629264354706,
+        "high": 0.8475913817528635,
+        "low": 0.8111992285121232,
+        "created_at": "2023-08-24T16:26:20.944Z",
+        "updated_at": "2023-08-24T16:05:52.086Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bcf210aa-a848-43f7-96ef-e2dc8fd78fd9",
+        "name": "Facebook Inc.",
+        "open_price": 0.8877905593253672,
+        "close_price": 0.6929297184105963,
+        "high": 0.5871611584443599,
+        "low": 0.6851660769898444,
+        "created_at": "2023-08-24T04:37:52.869Z",
+        "updated_at": "2023-08-24T16:43:27.894Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "6dca12af-a8fd-4614-95c9-79a4784875f9",
+        "name": "Linear Regression",
+        "description": "A statistical algorithm used for predicting numerical values",
+        "created_at": "2023-08-24T13:15:52.651Z",
+        "updated_at": "2023-08-24T20:45:52.273Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dd41aad-7c14-4a41-a9fa-c0c48841917b",
+        "name": "K-means Clustering",
+        "description": "A machine learning algorithm for grouping data points",
+        "created_at": "2023-08-24T17:26:24.639Z",
+        "updated_at": "2023-08-24T00:15:20.800Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae93c42a-2c04-4470-8242-b2b2fc704b5b",
+        "name": "Random Forest",
+        "description": "An ensemble learning algorithm for classification and regression tasks",
+        "created_at": "2023-08-24T07:36:38.359Z",
+        "updated_at": "2023-08-24T08:26:38.128Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87d0e3d5-f29f-43ab-b722-e9040d4f6c8d",
+        "name": "Support Vector Machines",
+        "description": "A supervised learning algorithm used for classification and regression",
+        "created_at": "2023-08-24T09:18:14.591Z",
+        "updated_at": "2023-08-24T13:23:45.338Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6f69685-a6cf-4ce8-9028-f78de69b66f8",
+        "name": "Naive Bayes",
+        "description": "A probabilistic algorithm based on Bayes' theorem",
+        "created_at": "2023-08-24T18:31:46.821Z",
+        "updated_at": "2023-08-24T06:55:09.606Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "c4ef566a-59af-4bb6-854d-8c3806a3e828",
+        "name": "Descriptive Statistics",
+        "description": "A method to summarize and interpret data",
+        "created_at": "2023-08-24T12:00:10.505Z",
+        "updated_at": "2023-08-24T14:25:46.069Z",
+        "algorithm_id": "ae93c42a-2c04-4470-8242-b2b2fc704b5b",
+        "stock_id": "21259dc7-cfee-4131-aaab-8a8229233f97"
+      },
+      {
+        "id": "823a0c07-f36d-4e64-9068-8e4b6e703664",
+        "name": "Hypothesis Testing",
+        "description": "A statistical method to test hypotheses about data",
+        "created_at": "2023-08-24T06:51:47.276Z",
+        "updated_at": "2023-08-24T14:51:00.580Z",
+        "algorithm_id": "87d0e3d5-f29f-43ab-b722-e9040d4f6c8d",
+        "stock_id": "4a5886eb-38cb-4743-8593-025d6cd80fd6"
+      },
+      {
+        "id": "7911ca7e-d45a-47b0-adaa-bb28365fb5e5",
+        "name": "Regression Analysis",
+        "description": "A statistical technique for modeling the relationship between variables",
+        "created_at": "2023-08-24T07:00:53.142Z",
+        "updated_at": "2023-08-24T02:27:45.744Z",
+        "algorithm_id": "87d0e3d5-f29f-43ab-b722-e9040d4f6c8d",
+        "stock_id": "21259dc7-cfee-4131-aaab-8a8229233f97"
+      },
+      {
+        "id": "f820ef1c-1e6d-434c-922e-a425c157c18c",
+        "name": "Time Series Analysis",
+        "description": "A method for analyzing data collected over time",
+        "created_at": "2023-08-24T01:44:43.507Z",
+        "updated_at": "2023-08-24T09:39:30.456Z",
+        "algorithm_id": "6dca12af-a8fd-4614-95c9-79a4784875f9",
+        "stock_id": "2f66f638-70d2-4dfd-94c6-9100f44ddd49"
+      },
+      {
+        "id": "06f49d5b-6397-48da-8340-6b9df5c62090",
+        "name": "Factor Analysis",
+        "description": "A statistical method for identifying latent variables",
+        "created_at": "2023-08-24T07:36:22.470Z",
+        "updated_at": "2023-08-24T04:28:55.239Z",
+        "algorithm_id": "ae93c42a-2c04-4470-8242-b2b2fc704b5b",
+        "stock_id": "bcf210aa-a848-43f7-96ef-e2dc8fd78fd9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2bd8f758-810a-4114-9079-818854ee7514",
+        "email": "Flavie_Langosh20@hotmail.com",
+        "firstName": "Dino",
+        "lastName": "Vandervort-Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64751156",
+        "tenantId": null
+      },
+      {
+        "reference": "f87939c8-5187-494c-8e29-3848e78dc2e3",
+        "email": "Mariane.Bailey74@gmail.com",
+        "firstName": "Mayra",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/309.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "560e6695-5074-411a-bded-031453ffdaf7",
+        "email": "Dulce47@yahoo.com",
+        "firstName": "Albina",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1384ea8-9ac7-42a4-a659-ec7aa3a677ce",
+        "email": "Mateo.Bosco@hotmail.com",
+        "firstName": "Lucinda",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5835323",
+        "tenantId": null
+      },
+      {
+        "reference": "a5b6f228-fd0c-4259-9273-535b78036aec",
+        "email": "Janessa_Stehr75@gmail.com",
+        "firstName": "Kenyatta",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51019150",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "30d72d29-266e-453b-be03-040413076141",
+        "name": "Apple Inc.",
+        "open_price": 0.21268849214538932,
+        "close_price": 0.3793210170697421,
+        "high": 0.6253964980132878,
+        "low": 0.9454929034691304,
+        "created_at": "2023-08-24T20:33:43.529Z",
+        "updated_at": "2023-08-24T08:24:49.409Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "771eb010-1100-4b05-bb93-e6eff48c0a48",
+        "name": "Microsoft Corporation",
+        "open_price": 0.3130508225876838,
+        "close_price": 0.66589475562796,
+        "high": 0.9998528512660414,
+        "low": 0.1545559347141534,
+        "created_at": "2023-08-24T09:54:52.551Z",
+        "updated_at": "2023-08-24T21:08:50.303Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0b72cfe4-c1d2-4cef-9b6f-88c79f09bf1a",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.8357805272098631,
+        "close_price": 0.013478103559464216,
+        "high": 0.40854781004600227,
+        "low": 0.622957757441327,
+        "created_at": "2023-08-24T07:42:31.208Z",
+        "updated_at": "2023-08-24T01:37:49.760Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "831a07f7-fb22-4dae-b0f8-b41e82b7016a",
+        "name": "Google LLC",
+        "open_price": 0.38089829264208674,
+        "close_price": 0.2557179529685527,
+        "high": 0.15045039635151625,
+        "low": 0.4616711668204516,
+        "created_at": "2023-08-24T07:32:36.371Z",
+        "updated_at": "2023-08-24T03:16:53.402Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c62d9779-2868-427c-bb40-d681bf81af8c",
+        "name": "Facebook Inc.",
+        "open_price": 0.9110910457093269,
+        "close_price": 0.9753481035586447,
+        "high": 0.9322545991744846,
+        "low": 0.3768866383470595,
+        "created_at": "2023-08-24T14:27:05.706Z",
+        "updated_at": "2023-08-23T22:51:59.763Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "3f2e675a-3dcf-48ba-a52a-4b524ddcac87",
+        "name": "Linear Regression",
+        "description": "A statistical model for predicting numerical values",
+        "created_at": "2023-08-24T04:02:09.285Z",
+        "updated_at": "2023-08-24T19:19:03.391Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74c745bc-07b2-44f7-86f4-011442373eb3",
+        "name": "K-means Clustering",
+        "description": "A clustering algorithm for grouping data points",
+        "created_at": "2023-08-23T23:12:20.203Z",
+        "updated_at": "2023-08-24T13:31:44.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9763a92-834b-41c6-97ce-cfd7bfd1b5c3",
+        "name": "Random Forest",
+        "description": "An ensemble learning method for classification and regression",
+        "created_at": "2023-08-24T20:57:01.456Z",
+        "updated_at": "2023-08-23T22:27:40.757Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a6089e8-7c02-4842-b7fd-ea74eba487ac",
+        "name": "Support Vector Machines",
+        "description": "A machine learning algorithm for binary classification",
+        "created_at": "2023-08-24T01:30:29.674Z",
+        "updated_at": "2023-08-24T12:41:15.800Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "254f63c3-2b73-48a1-92cc-f055284d5c40",
+        "name": "Neural Networks",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-24T00:11:53.746Z",
+        "updated_at": "2023-08-24T16:38:55.935Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "8ce6eefd-e7fc-43c7-8ca4-741712e14d93",
+        "name": "Descriptive Statistics",
+        "description": "Analyzing and summarizing data using measures such as mean and standard deviation",
+        "created_at": "2023-08-24T04:52:54.459Z",
+        "updated_at": "2023-08-24T12:40:15.808Z",
+        "algorithm_id": "5a6089e8-7c02-4842-b7fd-ea74eba487ac",
+        "stock_id": "0b72cfe4-c1d2-4cef-9b6f-88c79f09bf1a"
+      },
+      {
+        "id": "bcc6f84b-52b1-477f-bdfc-fe06520b52d6",
+        "name": "Hypothesis Testing",
+        "description": "Testing statistical hypotheses based on sample data",
+        "created_at": "2023-08-24T05:17:16.288Z",
+        "updated_at": "2023-08-24T10:53:22.697Z",
+        "algorithm_id": "b9763a92-834b-41c6-97ce-cfd7bfd1b5c3",
+        "stock_id": "771eb010-1100-4b05-bb93-e6eff48c0a48"
+      },
+      {
+        "id": "1f7147b1-fad5-4686-82e6-8a84322c0fab",
+        "name": "Regression Analysis",
+        "description": "Examining the relationship between variables through regression models",
+        "created_at": "2023-08-23T21:44:51.775Z",
+        "updated_at": "2023-08-24T12:41:42.413Z",
+        "algorithm_id": "5a6089e8-7c02-4842-b7fd-ea74eba487ac",
+        "stock_id": "0b72cfe4-c1d2-4cef-9b6f-88c79f09bf1a"
+      },
+      {
+        "id": "359cb6a7-439d-4064-918d-3fa46d2801db",
+        "name": "Time Series Analysis",
+        "description": "Analyzing data that is collected and recorded over time",
+        "created_at": "2023-08-24T20:13:18.032Z",
+        "updated_at": "2023-08-24T15:47:03.195Z",
+        "algorithm_id": "3f2e675a-3dcf-48ba-a52a-4b524ddcac87",
+        "stock_id": "30d72d29-266e-453b-be03-040413076141"
+      },
+      {
+        "id": "82df71e6-974c-420d-86d7-a6cd48a7f599",
+        "name": "Factor Analysis",
+        "description": "Identifying latent variables that explain observed variables",
+        "created_at": "2023-08-24T05:16:46.729Z",
+        "updated_at": "2023-08-23T21:45:55.335Z",
+        "algorithm_id": "b9763a92-834b-41c6-97ce-cfd7bfd1b5c3",
+        "stock_id": "0b72cfe4-c1d2-4cef-9b6f-88c79f09bf1a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c08373a6-7a71-445a-8212-8f3636e694fe",
+        "email": "Johann.Hartmann@yahoo.com",
+        "firstName": "Gavin",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73015841",
+        "tenantId": null
+      },
+      {
+        "reference": "68514a22-14e9-4a71-9de3-64803b339109",
+        "email": "Hank96@hotmail.com",
+        "firstName": "Vilma",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/806.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c80b380-8713-4b6a-94be-72c549a464af",
+        "email": "Vivienne65@gmail.com",
+        "firstName": "Imogene",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29758328",
+        "tenantId": null
+      },
+      {
+        "reference": "30ae5a78-e3e1-4ea9-bfdc-fc3462f80ebd",
+        "email": "Jonas.Kertzmann@hotmail.com",
+        "firstName": "Alejandrin",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19084218",
+        "tenantId": null
+      },
+      {
+        "reference": "fb903ccb-6a74-4ebd-9f39-1dafb49ecaec",
+        "email": "Brice.Rosenbaum@yahoo.com",
+        "firstName": "Tia",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23827203",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "92953c95-9ceb-4a0d-8696-8e9eb72e2635",
+        "name": "Apple Inc.",
+        "open_price": 0.47604283108375967,
+        "close_price": 0.5034549131523818,
+        "high": 0.016806901898235083,
+        "low": 0.6753891073167324,
+        "created_at": "2023-08-24T19:29:42.474Z",
+        "updated_at": "2023-08-24T03:29:27.884Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b185a255-626d-4674-a6ed-dcfa015f3549",
+        "name": "Microsoft Corporation",
+        "open_price": 0.6190558187663555,
+        "close_price": 0.7610136535950005,
+        "high": 0.8198549465741962,
+        "low": 0.9360437749419361,
+        "created_at": "2023-08-24T19:25:26.860Z",
+        "updated_at": "2023-08-24T01:30:06.944Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f874106a-1492-4b75-8e4c-9f1ccc7a8f17",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.6987500211689621,
+        "close_price": 0.5816352593246847,
+        "high": 0.020049190381541848,
+        "low": 0.2194448816590011,
+        "created_at": "2023-08-24T12:26:18.245Z",
+        "updated_at": "2023-08-24T04:25:01.539Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "53f22cc7-aea7-4e1e-b8ab-430e2bc44f49",
+        "name": "Google LLC",
+        "open_price": 0.11923527461476624,
+        "close_price": 0.7032533620949835,
+        "high": 0.28896174440160394,
+        "low": 0.09705513995140791,
+        "created_at": "2023-08-24T18:47:45.134Z",
+        "updated_at": "2023-08-24T11:34:40.600Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f46da465-dd01-4fec-9358-a59c7e1312ba",
+        "name": "Facebook Inc.",
+        "open_price": 0.4846609029918909,
+        "close_price": 0.934307977091521,
+        "high": 0.9597041658125818,
+        "low": 0.7658963054418564,
+        "created_at": "2023-08-24T12:07:33.597Z",
+        "updated_at": "2023-08-23T23:26:33.283Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "db53ebba-e998-457b-bb0d-6c6ed5ba1b42",
+        "name": "Linear Regression",
+        "description": "A statistical algorithm for predicting numeric values",
+        "created_at": "2023-08-24T18:14:45.152Z",
+        "updated_at": "2023-08-24T00:43:56.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74b25241-0a32-4efc-b4f2-07f96cd56dc3",
+        "name": "K-means Clustering",
+        "description": "A clustering algorithm for grouping similar data points",
+        "created_at": "2023-08-24T13:29:31.773Z",
+        "updated_at": "2023-08-24T02:03:56.335Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fcedc0a-3829-4b39-8b6f-0aec7ca98da2",
+        "name": "Random Forest",
+        "description": "An ensemble algorithm for classification and regression tasks",
+        "created_at": "2023-08-24T06:47:30.235Z",
+        "updated_at": "2023-08-24T10:23:49.754Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "053e645f-e574-4b72-8825-86344a400c93",
+        "name": "Support Vector Machines",
+        "description": "A machine learning algorithm for classification and regression",
+        "created_at": "2023-08-23T21:36:49.582Z",
+        "updated_at": "2023-08-24T10:42:54.428Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81a92a6d-823d-4c4c-9b08-6ba582d131bb",
+        "name": "Neural Networks",
+        "description": "A deep learning algorithm inspired by the human brain",
+        "created_at": "2023-08-24T11:28:50.055Z",
+        "updated_at": "2023-08-24T06:06:54.726Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "0964cdcc-5638-49bd-9a00-a32795f16636",
+        "name": "Statistical Analysis",
+        "description": "Analyzing data to uncover patterns and insights",
+        "created_at": "2023-08-24T17:06:53.948Z",
+        "updated_at": "2023-08-24T14:04:10.116Z",
+        "algorithm_id": "053e645f-e574-4b72-8825-86344a400c93",
+        "stock_id": "f46da465-dd01-4fec-9358-a59c7e1312ba"
+      },
+      {
+        "id": "4b101d31-b896-4e6e-9663-7e2d7c729063",
+        "name": "Data Visualization",
+        "description": "Visualizing data through charts and graphs",
+        "created_at": "2023-08-24T00:14:27.451Z",
+        "updated_at": "2023-08-24T07:34:01.024Z",
+        "algorithm_id": "74b25241-0a32-4efc-b4f2-07f96cd56dc3",
+        "stock_id": "f874106a-1492-4b75-8e4c-9f1ccc7a8f17"
+      },
+      {
+        "id": "09fd2c08-9c37-40af-8778-234196fa4954",
+        "name": "Text Mining",
+        "description": "Extracting meaningful information from text data",
+        "created_at": "2023-08-24T18:01:45.630Z",
+        "updated_at": "2023-08-24T03:42:42.649Z",
+        "algorithm_id": "8fcedc0a-3829-4b39-8b6f-0aec7ca98da2",
+        "stock_id": "f46da465-dd01-4fec-9358-a59c7e1312ba"
+      },
+      {
+        "id": "66232176-18c4-4b2a-8408-41178b4cb0b3",
+        "name": "Time Series Forecasting",
+        "description": "Predicting future values based on historical data",
+        "created_at": "2023-08-24T17:39:46.721Z",
+        "updated_at": "2023-08-24T16:43:48.881Z",
+        "algorithm_id": "db53ebba-e998-457b-bb0d-6c6ed5ba1b42",
+        "stock_id": "b185a255-626d-4674-a6ed-dcfa015f3549"
+      },
+      {
+        "id": "632f9fd3-52e8-46d0-be7f-32329d82321e",
+        "name": "Sentiment Analysis",
+        "description": "Determining the sentiment or emotion behind text",
+        "created_at": "2023-08-23T23:10:45.756Z",
+        "updated_at": "2023-08-24T17:27:55.350Z",
+        "algorithm_id": "74b25241-0a32-4efc-b4f2-07f96cd56dc3",
+        "stock_id": "53f22cc7-aea7-4e1e-b8ab-430e2bc44f49"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ef9005b9-1666-4036-97e3-7bd600d6fd96",
+        "email": "Christine.Hoeger@hotmail.com",
+        "firstName": "Chandler",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60981fc5-25b4-44fc-9850-55e1756bc3d1",
+        "email": "Robbie_Collier@yahoo.com",
+        "firstName": "Tyra",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/546.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8433bc50-375a-4bcb-bd9c-d943159b4470",
+        "email": "Bettye_Cormier69@hotmail.com",
+        "firstName": "Cathrine",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b056ce69-3efc-473c-9452-4103ba575261",
+        "email": "Luisa48@gmail.com",
+        "firstName": "Santa",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/244.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6adde48b-6bd4-44ab-9362-df52ce562a22",
+        "email": "Eliane_Schiller66@yahoo.com",
+        "firstName": "Brycen",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72918006",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "d02a4f45-b98b-407b-8f42-a8841e2ea637",
+        "name": "Apple Inc.",
+        "open_price": 0.36036344384774566,
+        "close_price": 0.002456249203532934,
+        "high": 0.4114777815993875,
+        "low": 0.5971568156965077,
+        "created_at": "2023-08-23T22:06:22.495Z",
+        "updated_at": "2023-08-24T15:14:07.817Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cdd7a71f-daa0-44db-8311-d8ad7d8106de",
+        "name": "Microsoft Corporation",
+        "open_price": 0.6122015027794987,
+        "close_price": 0.1199121386744082,
+        "high": 0.06957702105864882,
+        "low": 0.6086883447133005,
+        "created_at": "2023-08-23T21:54:14.549Z",
+        "updated_at": "2023-08-24T18:52:46.500Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "79a1ac83-10fc-4568-8830-ca56278c3a03",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.4741290588863194,
+        "close_price": 0.6954656115267426,
+        "high": 0.8359415619634092,
+        "low": 0.7790242857299745,
+        "created_at": "2023-08-23T21:19:43.671Z",
+        "updated_at": "2023-08-24T01:05:32.579Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5fc03879-973e-42d8-9025-e40f06644b04",
+        "name": "Google LLC",
+        "open_price": 0.42509026383049786,
+        "close_price": 0.9562175900209695,
+        "high": 0.13934736954979599,
+        "low": 0.7801757040433586,
+        "created_at": "2023-08-24T14:55:36.000Z",
+        "updated_at": "2023-08-24T12:46:12.327Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3277eb3b-32f1-4c7f-9223-608485d08cc1",
+        "name": "Facebook Inc.",
+        "open_price": 0.7722255701664835,
+        "close_price": 0.13888296438381076,
+        "high": 0.09693545079790056,
+        "low": 0.1687647553626448,
+        "created_at": "2023-08-23T23:36:51.365Z",
+        "updated_at": "2023-08-24T03:35:33.017Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "87b76d5a-3ac4-4150-8205-caedbe91212e",
+        "name": "Linear Regression",
+        "description": "A statistical algorithm used for predicting continuous variables",
+        "created_at": "2023-08-24T01:10:23.006Z",
+        "updated_at": "2023-08-24T06:30:16.393Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5d2e456-cc5d-4d75-b574-b6b19dd02b7b",
+        "name": "Random Forest",
+        "description": "An ensemble learning algorithm based on decision trees",
+        "created_at": "2023-08-24T03:49:23.341Z",
+        "updated_at": "2023-08-24T04:10:38.895Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dde780d0-821e-456c-9f13-37e4dc7c5ae9",
+        "name": "K-Means Clustering",
+        "description": "A clustering algorithm used for grouping data points",
+        "created_at": "2023-08-24T11:43:00.734Z",
+        "updated_at": "2023-08-24T00:26:42.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da30c685-d21b-4eb1-9071-6c6ad4b8a858",
+        "name": "Support Vector Machines",
+        "description": "A machine learning algorithm used for classification and regression",
+        "created_at": "2023-08-24T17:42:30.818Z",
+        "updated_at": "2023-08-24T08:32:28.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0016e6a6-9b38-4038-92f1-631fd34f2f72",
+        "name": "Neural Networks",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-24T14:16:56.876Z",
+        "updated_at": "2023-08-23T23:29:04.118Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "259dc650-1fbe-4bd1-86da-e89d97b48020",
+        "name": "Exploratory Data Analysis",
+        "description": "A process of analyzing data to summarize its main characteristics",
+        "created_at": "2023-08-24T04:47:09.623Z",
+        "updated_at": "2023-08-24T20:30:36.862Z",
+        "algorithm_id": "dde780d0-821e-456c-9f13-37e4dc7c5ae9",
+        "stock_id": "cdd7a71f-daa0-44db-8311-d8ad7d8106de"
+      },
+      {
+        "id": "7832f839-8917-4cb9-bc43-92b62cc11a66",
+        "name": "Statistical Analysis",
+        "description": "A mathematical approach to analyze data and draw conclusions",
+        "created_at": "2023-08-24T18:04:28.456Z",
+        "updated_at": "2023-08-24T04:07:43.404Z",
+        "algorithm_id": "0016e6a6-9b38-4038-92f1-631fd34f2f72",
+        "stock_id": "5fc03879-973e-42d8-9025-e40f06644b04"
+      },
+      {
+        "id": "182e634d-0393-4963-ad6d-7cb3492bce9c",
+        "name": "Time Series Analysis",
+        "description": "A method for analyzing data points collected over time",
+        "created_at": "2023-08-24T05:58:55.150Z",
+        "updated_at": "2023-08-24T16:48:41.118Z",
+        "algorithm_id": "da30c685-d21b-4eb1-9071-6c6ad4b8a858",
+        "stock_id": "79a1ac83-10fc-4568-8830-ca56278c3a03"
+      },
+      {
+        "id": "d955c028-5a4b-4b30-87d8-8ceee37ade63",
+        "name": "Text Mining",
+        "description": "A technique for extracting useful information from text data",
+        "created_at": "2023-08-24T17:02:25.337Z",
+        "updated_at": "2023-08-24T19:18:09.704Z",
+        "algorithm_id": "da30c685-d21b-4eb1-9071-6c6ad4b8a858",
+        "stock_id": "cdd7a71f-daa0-44db-8311-d8ad7d8106de"
+      },
+      {
+        "id": "ed510677-a97f-4437-abf9-a9506f676771",
+        "name": "Image Processing",
+        "description": "A method for analyzing and manipulating digital images",
+        "created_at": "2023-08-24T13:44:33.032Z",
+        "updated_at": "2023-08-23T23:28:30.840Z",
+        "algorithm_id": "da30c685-d21b-4eb1-9071-6c6ad4b8a858",
+        "stock_id": "d02a4f45-b98b-407b-8f42-a8841e2ea637"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "23a5fc21-b48c-4cba-a121-599326e3ae08",
+        "email": "Justyn.Harris@yahoo.com",
+        "firstName": "Icie",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68225846",
+        "tenantId": null
+      },
+      {
+        "reference": "e95b01f2-753e-49b7-bfa5-62284a4d9d0a",
+        "email": "Gayle69@hotmail.com",
+        "firstName": "Beulah",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1047.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8285b6f3-3487-4738-a0bc-5f45b0b710a2",
+        "email": "Camylle18@gmail.com",
+        "firstName": "Leatha",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/6.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "abfc0e31-6f2f-4c6a-89c4-35dde3494348",
+        "email": "Cassandre_Dibbert83@gmail.com",
+        "firstName": "Evangeline",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ee1d20a-6a26-43de-a9db-f09c259fbbce",
+        "email": "Fritz78@gmail.com",
+        "firstName": "Seth",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/902.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "0a1c8b16-0f2d-4aae-b6dc-d34ff84b4eb6",
+        "name": "Apple Inc.",
+        "open_price": 0.6699028199072927,
+        "close_price": 0.7298374404199421,
+        "high": 0.44910308974795043,
+        "low": 0.4132503147702664,
+        "created_at": "2023-08-24T09:27:34.183Z",
+        "updated_at": "2023-08-24T03:24:53.579Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e6f02452-b0db-4528-9b02-cf0da5efa422",
+        "name": "Microsoft Corporation",
+        "open_price": 0.0783972789067775,
+        "close_price": 0.951170566957444,
+        "high": 0.7643959075212479,
+        "low": 0.4262405743356794,
+        "created_at": "2023-08-24T12:42:40.818Z",
+        "updated_at": "2023-08-24T21:03:02.256Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d17d6b69-b305-4b77-9b58-73a0bcad350d",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.7216750453226268,
+        "close_price": 0.0033797600772231817,
+        "high": 0.33840554067865014,
+        "low": 0.49045858532190323,
+        "created_at": "2023-08-23T21:54:52.616Z",
+        "updated_at": "2023-08-24T16:47:58.996Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5253d1de-4b03-482d-abd0-ff42a4a92098",
+        "name": "Alphabet Inc.",
+        "open_price": 0.6378448579926044,
+        "close_price": 0.1584165943786502,
+        "high": 0.16940429154783487,
+        "low": 0.26315121236257255,
+        "created_at": "2023-08-23T22:28:05.466Z",
+        "updated_at": "2023-08-24T18:33:21.484Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c5b3f0a2-7cd3-4331-a251-11e6a5a84f0a",
+        "name": "Facebook Inc.",
+        "open_price": 0.5545072185341269,
+        "close_price": 0.009692990221083164,
+        "high": 0.21798533736728132,
+        "low": 0.06093605235219002,
+        "created_at": "2023-08-24T08:21:42.648Z",
+        "updated_at": "2023-08-24T09:10:09.024Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "19082e3c-3b6e-4eda-985d-b015498430b0",
+        "name": "Linear Regression",
+        "description": "A statistical algorithm used for predicting numerical values",
+        "created_at": "2023-08-24T17:00:01.413Z",
+        "updated_at": "2023-08-24T08:59:05.191Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5be860d-7fca-4b7b-a1e4-21de1257934a",
+        "name": "Random Forest",
+        "description": "An ensemble algorithm that combines multiple decision trees",
+        "created_at": "2023-08-24T19:50:47.066Z",
+        "updated_at": "2023-08-24T00:15:25.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40e9e9a9-664b-4b30-9317-df2e4ba0d1e5",
+        "name": "Support Vector Machine",
+        "description": "A machine learning algorithm used for classification and regression tasks",
+        "created_at": "2023-08-24T06:55:16.132Z",
+        "updated_at": "2023-08-24T12:55:50.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb91243b-ef17-4799-b40a-2d5c7a3c6302",
+        "name": "K-Means Clustering",
+        "description": "A clustering algorithm used for grouping data points",
+        "created_at": "2023-08-24T02:01:05.766Z",
+        "updated_at": "2023-08-24T13:48:33.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9085be32-e6fe-4172-8dc3-0b4b72587992",
+        "name": "Neural Network",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-24T00:11:33.998Z",
+        "updated_at": "2023-08-24T03:43:43.579Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "f32715cf-2db6-4f03-9b2e-c97d24326512",
+        "name": "Statistical Analysis",
+        "description": "Analyzing data to identify patterns and relationships",
+        "created_at": "2023-08-23T23:06:17.677Z",
+        "updated_at": "2023-08-24T19:01:44.077Z",
+        "algorithm_id": "40e9e9a9-664b-4b30-9317-df2e4ba0d1e5",
+        "stock_id": "e6f02452-b0db-4528-9b02-cf0da5efa422"
+      },
+      {
+        "id": "9dd2c2d0-575b-4b43-a1d9-86ae00a095cc",
+        "name": "Data Visualization",
+        "description": "Representing data visually through charts and graphs",
+        "created_at": "2023-08-24T02:17:14.205Z",
+        "updated_at": "2023-08-23T21:32:31.873Z",
+        "algorithm_id": "d5be860d-7fca-4b7b-a1e4-21de1257934a",
+        "stock_id": "5253d1de-4b03-482d-abd0-ff42a4a92098"
+      },
+      {
+        "id": "3900b158-75ff-4d1f-a9db-c641c39becb4",
+        "name": "Time Series Forecasting",
+        "description": "Predicting future values based on historical data",
+        "created_at": "2023-08-24T03:20:53.378Z",
+        "updated_at": "2023-08-24T14:50:30.610Z",
+        "algorithm_id": "d5be860d-7fca-4b7b-a1e4-21de1257934a",
+        "stock_id": "5253d1de-4b03-482d-abd0-ff42a4a92098"
+      },
+      {
+        "id": "c3b97bd0-d3a6-4e3c-86dc-5f8d1d1e5674",
+        "name": "Text Mining",
+        "description": "Extracting meaningful information from text data",
+        "created_at": "2023-08-24T15:41:36.599Z",
+        "updated_at": "2023-08-24T14:05:45.262Z",
+        "algorithm_id": "cb91243b-ef17-4799-b40a-2d5c7a3c6302",
+        "stock_id": "0a1c8b16-0f2d-4aae-b6dc-d34ff84b4eb6"
+      },
+      {
+        "id": "862c66af-fc24-4e29-ba81-97753bd3ff24",
+        "name": "Image Recognition",
+        "description": "Identifying and classifying objects in images",
+        "created_at": "2023-08-24T01:15:09.696Z",
+        "updated_at": "2023-08-24T00:57:37.210Z",
+        "algorithm_id": "cb91243b-ef17-4799-b40a-2d5c7a3c6302",
+        "stock_id": "5253d1de-4b03-482d-abd0-ff42a4a92098"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ab85af10-4a3c-4647-8702-8aae95caee83",
+        "email": "Vivianne_Toy@yahoo.com",
+        "firstName": "Eugenia",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1daefe61-5dcc-4707-8938-b88d1abc3fd3",
+        "email": "Raoul_Botsford@gmail.com",
+        "firstName": "Jaylan",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/206.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea9b07fd-be36-4a2e-9284-2edb957f6142",
+        "email": "Zelda.Jaskolski84@yahoo.com",
+        "firstName": "Fletcher",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1011.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4776cfe3-bbc3-43e5-a0ea-d36cd6d52e6c",
+        "email": "Faye.Carter82@gmail.com",
+        "firstName": "Zack",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/262.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb86c293-289e-4217-b968-cd2ad38d8444",
+        "email": "Milo30@yahoo.com",
+        "firstName": "Earline",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/308.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "08068438-cb03-4c0a-a0ed-bd641c82e19e",
+        "name": "Apple Inc.",
+        "open_price": 0.8263002072926611,
+        "close_price": 0.16967098810710013,
+        "high": 0.4422602404374629,
+        "low": 0.6320508609060198,
+        "created_at": "2023-08-23T23:55:01.545Z",
+        "updated_at": "2023-08-24T02:26:48.606Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "83ced073-68ac-4c3d-b3ca-5bc1bf51ae08",
+        "name": "Microsoft Corporation",
+        "open_price": 0.38152421172708273,
+        "close_price": 0.782576548634097,
+        "high": 0.6559803856071085,
+        "low": 0.5783948979806155,
+        "created_at": "2023-08-24T06:34:25.406Z",
+        "updated_at": "2023-08-24T07:25:26.342Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8f843ca1-cac2-4e13-b4d7-352a6b1e25be",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.8590584867633879,
+        "close_price": 0.3753197151236236,
+        "high": 0.5664422062691301,
+        "low": 0.4809185869526118,
+        "created_at": "2023-08-24T19:48:44.098Z",
+        "updated_at": "2023-08-24T07:19:18.962Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3b8a5f24-8572-469a-a29b-b653af8b6720",
+        "name": "Google LLC",
+        "open_price": 0.1390120815485716,
+        "close_price": 0.314838879276067,
+        "high": 0.3275112686678767,
+        "low": 0.391561268363148,
+        "created_at": "2023-08-24T10:45:44.184Z",
+        "updated_at": "2023-08-24T18:46:49.562Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f8a4f260-2d33-4a64-99e9-feb630ebe1d6",
+        "name": "Facebook Inc.",
+        "open_price": 0.6524222423322499,
+        "close_price": 0.11823193682357669,
+        "high": 0.17656802898272872,
+        "low": 0.8020511902868748,
+        "created_at": "2023-08-24T11:57:07.619Z",
+        "updated_at": "2023-08-24T10:47:07.713Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "37d4160d-9349-43ad-8eb6-e057fd2feeae",
+        "name": "Linear Regression",
+        "description": "A statistical algorithm used for predicting continuous variables",
+        "created_at": "2023-08-24T21:06:20.777Z",
+        "updated_at": "2023-08-24T00:47:57.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87d036ec-2afc-4273-a632-278e29ffc9c5",
+        "name": "Random Forest",
+        "description": "An ensemble learning algorithm for classification and regression tasks",
+        "created_at": "2023-08-24T03:01:05.376Z",
+        "updated_at": "2023-08-24T03:08:56.642Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d65e517-4e35-4dde-adac-c070eac59573",
+        "name": "K-Means Clustering",
+        "description": "A clustering algorithm for grouping data points into clusters",
+        "created_at": "2023-08-24T21:04:57.350Z",
+        "updated_at": "2023-08-24T04:52:44.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6afefe8-3a4d-4688-8d9f-97b446dd9f9b",
+        "name": "Support Vector Machine",
+        "description": "A supervised learning algorithm used for classification and regression tasks",
+        "created_at": "2023-08-23T22:04:59.576Z",
+        "updated_at": "2023-08-24T11:44:27.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "665f48a3-49d6-40c1-bae5-614eef7ec8b2",
+        "name": "Neural Network",
+        "description": "A machine learning algorithm inspired by the structure and function of the brain",
+        "created_at": "2023-08-24T10:15:02.297Z",
+        "updated_at": "2023-08-24T03:26:08.610Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "8b29bbec-b1fb-4bf9-92cf-05cf61232f32",
+        "name": "Statistical Analysis",
+        "description": "Analyzing data using statistical methods to uncover patterns and insights",
+        "created_at": "2023-08-24T10:52:14.262Z",
+        "updated_at": "2023-08-24T20:11:49.792Z",
+        "algorithm_id": "87d036ec-2afc-4273-a632-278e29ffc9c5",
+        "stock_id": "8f843ca1-cac2-4e13-b4d7-352a6b1e25be"
+      },
+      {
+        "id": "8c90c773-feb4-47c5-81d5-d183e8a2c378",
+        "name": "Data Visualization",
+        "description": "Representing data visually through charts, graphs, and maps",
+        "created_at": "2023-08-24T12:21:09.266Z",
+        "updated_at": "2023-08-24T06:33:39.507Z",
+        "algorithm_id": "5d65e517-4e35-4dde-adac-c070eac59573",
+        "stock_id": "83ced073-68ac-4c3d-b3ca-5bc1bf51ae08"
+      },
+      {
+        "id": "93240170-1ead-435e-a1ca-1391429a708e",
+        "name": "Predictive Modeling",
+        "description": "Building models to predict future outcomes based on historical data",
+        "created_at": "2023-08-24T08:47:15.701Z",
+        "updated_at": "2023-08-24T18:48:31.328Z",
+        "algorithm_id": "5d65e517-4e35-4dde-adac-c070eac59573",
+        "stock_id": "3b8a5f24-8572-469a-a29b-b653af8b6720"
+      },
+      {
+        "id": "b40da156-e9e7-4187-b3e0-cfb80a13cd52",
+        "name": "Text Mining",
+        "description": "Extracting useful information and knowledge from unstructured text data",
+        "created_at": "2023-08-24T13:53:25.953Z",
+        "updated_at": "2023-08-24T09:31:51.114Z",
+        "algorithm_id": "5d65e517-4e35-4dde-adac-c070eac59573",
+        "stock_id": "8f843ca1-cac2-4e13-b4d7-352a6b1e25be"
+      },
+      {
+        "id": "2cf5e93b-1b7f-4eca-8f66-3c06cbc6a489",
+        "name": "Time Series Analysis",
+        "description": "Analyzing and forecasting data points collected over a period of time",
+        "created_at": "2023-08-24T19:10:24.870Z",
+        "updated_at": "2023-08-23T21:54:32.703Z",
+        "algorithm_id": "5d65e517-4e35-4dde-adac-c070eac59573",
+        "stock_id": "08068438-cb03-4c0a-a0ed-bd641c82e19e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "48ac335e-79a8-412c-aade-2f1593b12f0e",
+        "email": "Mabel.Langworth@gmail.com",
+        "firstName": "Oren",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/219.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76b0a396-264b-49ce-a7e8-fb17c1b09269",
+        "email": "Kirstin_Marvin-Durgan62@hotmail.com",
+        "firstName": "Jesus",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26515788",
+        "tenantId": null
+      },
+      {
+        "reference": "1983e319-fffd-41b9-94cc-9cd3cd5ddffb",
+        "email": "Nina58@yahoo.com",
+        "firstName": "Maynard",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17390518",
+        "tenantId": null
+      },
+      {
+        "reference": "36760623-7e27-4f8a-bdf9-144d2c5e5a94",
+        "email": "Jesus21@gmail.com",
+        "firstName": "Arjun",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/147282",
+        "tenantId": null
+      },
+      {
+        "reference": "ad3b14ce-b2c4-464c-a369-88073e0ccadb",
+        "email": "Lew_Goldner29@gmail.com",
+        "firstName": "Estrella",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86775273",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "fc9e95b2-c856-4c57-9352-2e681c453f42",
+        "name": "Apple Inc.",
+        "open_price": 0.8691584626212716,
+        "close_price": 0.4180412518326193,
+        "high": 0.8166860300116241,
+        "low": 0.23903549602255225,
+        "created_at": "2023-08-24T09:08:57.345Z",
+        "updated_at": "2023-08-24T11:02:10.145Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9e3df698-113e-4e81-aab3-9a2706a518ba",
+        "name": "Microsoft Corporation",
+        "open_price": 0.8329381782095879,
+        "close_price": 0.1624701984692365,
+        "high": 0.8016751916147768,
+        "low": 0.5773869780823588,
+        "created_at": "2023-08-24T00:58:59.650Z",
+        "updated_at": "2023-08-24T10:22:43.094Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c2eef0ff-2ab2-4a90-82ca-b5993902a5e8",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.732739960309118,
+        "close_price": 0.6665459435898811,
+        "high": 0.6671032474841923,
+        "low": 0.4885236907284707,
+        "created_at": "2023-08-24T00:18:24.123Z",
+        "updated_at": "2023-08-24T18:25:12.495Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "349eb4da-c5b4-48ff-a8ac-7dc8911dc9a7",
+        "name": "Google LLC",
+        "open_price": 0.45976514858193696,
+        "close_price": 0.4472302380017936,
+        "high": 0.7749359973240644,
+        "low": 0.6150422734208405,
+        "created_at": "2023-08-24T11:03:32.703Z",
+        "updated_at": "2023-08-24T14:28:13.341Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c2a44b25-836a-48aa-a12d-d22da4107846",
+        "name": "Facebook Inc.",
+        "open_price": 0.7334487752523273,
+        "close_price": 0.03571818070486188,
+        "high": 0.7002602580469102,
+        "low": 0.7993866158649325,
+        "created_at": "2023-08-24T00:58:13.486Z",
+        "updated_at": "2023-08-24T20:00:49.400Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "70225ec1-f625-43bd-b60b-3e3666483d67",
+        "name": "Linear Regression",
+        "description": "A statistical method for predicting numerical values",
+        "created_at": "2023-08-24T09:42:42.026Z",
+        "updated_at": "2023-08-24T17:38:44.185Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8abb9ef-79d1-42d1-a1a4-cc09bee3db1b",
+        "name": "Random Forest",
+        "description": "An ensemble learning method for classification and regression",
+        "created_at": "2023-08-24T16:16:33.212Z",
+        "updated_at": "2023-08-24T06:42:06.261Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e264fe18-a09a-48d2-8d0c-8480198f17e0",
+        "name": "K-means Clustering",
+        "description": "A clustering algorithm for partitioning data into groups",
+        "created_at": "2023-08-24T10:47:54.818Z",
+        "updated_at": "2023-08-24T17:31:23.511Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "225d948f-481d-44e7-80ce-fadcefc89c8c",
+        "name": "Support Vector Machine",
+        "description": "A supervised learning algorithm for classification and regression",
+        "created_at": "2023-08-24T01:53:28.539Z",
+        "updated_at": "2023-08-24T01:19:10.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb5f3785-c375-402b-8eb9-44fee9fdfeb4",
+        "name": "Neural Network",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-24T04:44:21.537Z",
+        "updated_at": "2023-08-23T23:54:10.746Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "018ce743-43eb-494d-82e3-8bb733b377bb",
+        "name": "Exploratory Data Analysis",
+        "description": "An approach to analyze and summarize data to uncover patterns and insights",
+        "created_at": "2023-08-24T05:19:51.897Z",
+        "updated_at": "2023-08-24T02:06:24.353Z",
+        "algorithm_id": "eb5f3785-c375-402b-8eb9-44fee9fdfeb4",
+        "stock_id": "c2eef0ff-2ab2-4a90-82ca-b5993902a5e8"
+      },
+      {
+        "id": "87dbe6d7-1c54-4b17-b079-4012b2e5a719",
+        "name": "Descriptive Statistics",
+        "description": "Statistical measures that describe the main features of a dataset",
+        "created_at": "2023-08-24T06:12:48.887Z",
+        "updated_at": "2023-08-24T01:29:08.671Z",
+        "algorithm_id": "eb5f3785-c375-402b-8eb9-44fee9fdfeb4",
+        "stock_id": "c2eef0ff-2ab2-4a90-82ca-b5993902a5e8"
+      },
+      {
+        "id": "1af5f74b-eed8-4933-b59f-518ac66a897f",
+        "name": "Hypothesis Testing",
+        "description": "A method to test the validity of assumptions and draw conclusions",
+        "created_at": "2023-08-24T00:18:24.541Z",
+        "updated_at": "2023-08-24T18:40:23.193Z",
+        "algorithm_id": "b8abb9ef-79d1-42d1-a1a4-cc09bee3db1b",
+        "stock_id": "c2a44b25-836a-48aa-a12d-d22da4107846"
+      },
+      {
+        "id": "eebac5b8-8786-4708-b2de-129074c9e2f7",
+        "name": "Regression Analysis",
+        "description": "A statistical technique to model the relationship between variables",
+        "created_at": "2023-08-24T00:31:05.623Z",
+        "updated_at": "2023-08-23T23:43:57.451Z",
+        "algorithm_id": "225d948f-481d-44e7-80ce-fadcefc89c8c",
+        "stock_id": "c2eef0ff-2ab2-4a90-82ca-b5993902a5e8"
+      },
+      {
+        "id": "320e1b13-7895-4f5b-9d0f-c6d5df8fb54d",
+        "name": "Time Series Analysis",
+        "description": "A method to analyze data points collected over time",
+        "created_at": "2023-08-24T10:25:20.294Z",
+        "updated_at": "2023-08-24T11:12:36.122Z",
+        "algorithm_id": "e264fe18-a09a-48d2-8d0c-8480198f17e0",
+        "stock_id": "9e3df698-113e-4e81-aab3-9a2706a518ba"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eeea3939-a5c0-4f97-b61d-be43eecb0af6",
+        "email": "Victoria.Herzog@gmail.com",
+        "firstName": "Douglas",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92313983",
+        "tenantId": null
+      },
+      {
+        "reference": "34266617-0540-4ef3-b8ab-90bb0c2f956a",
+        "email": "Bette45@yahoo.com",
+        "firstName": "Christy",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22486535",
+        "tenantId": null
+      },
+      {
+        "reference": "963eb708-3261-49a3-8de5-b125727fd8ca",
+        "email": "Dino81@gmail.com",
+        "firstName": "Ignatius",
+        "lastName": "Tillman-Kihn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13424876",
+        "tenantId": null
+      },
+      {
+        "reference": "7e419fb8-fffe-4e31-b18e-6488061d9280",
+        "email": "Daisha.Howe35@gmail.com",
+        "firstName": "Mackenzie",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/628.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c73760a-eee4-4ee4-9209-591b440af590",
+        "email": "Jana.Toy68@hotmail.com",
+        "firstName": "Beth",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "4ec6ad47-db02-4cfc-aeec-55138371d577",
+        "name": "Apple Inc.",
+        "open_price": 0.47507330239750445,
+        "close_price": 0.7928265088703483,
+        "high": 0.5283779702149332,
+        "low": 0.895098299253732,
+        "created_at": "2023-08-24T07:26:28.458Z",
+        "updated_at": "2023-08-24T03:33:22.796Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c7867d89-a01d-4e36-95e6-f5a18a461d73",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.41330579412169755,
+        "close_price": 0.44861775916069746,
+        "high": 0.2674351835157722,
+        "low": 0.9934685854241252,
+        "created_at": "2023-08-24T12:03:30.563Z",
+        "updated_at": "2023-08-24T04:53:04.562Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c01aca24-ebe4-4d9a-b431-288ffc9aec94",
+        "name": "Microsoft Corporation",
+        "open_price": 0.10594233870506287,
+        "close_price": 0.8924298055935651,
+        "high": 0.3866035894025117,
+        "low": 0.28052709344774485,
+        "created_at": "2023-08-24T11:35:48.349Z",
+        "updated_at": "2023-08-23T22:50:34.981Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "882e60e3-acaf-4781-a722-6b9f0aa1ac42",
+        "name": "Tesla Inc.",
+        "open_price": 0.8088765817228705,
+        "close_price": 0.5951020251959562,
+        "high": 0.9286086945794523,
+        "low": 0.14710505795665085,
+        "created_at": "2023-08-24T20:26:58.778Z",
+        "updated_at": "2023-08-24T13:45:16.382Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1c4439b4-adfd-409a-82bb-d0d7639465cc",
+        "name": "Alphabet Inc.",
+        "open_price": 0.3453777951654047,
+        "close_price": 0.5543530487921089,
+        "high": 0.8274876610375941,
+        "low": 0.622036797227338,
+        "created_at": "2023-08-24T00:40:32.881Z",
+        "updated_at": "2023-08-24T00:31:46.474Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "0bdfc0d2-5f88-499d-86ef-fba0772d91e2",
+        "name": "Linear Regression",
+        "description": "A statistical model for predicting numerical values",
+        "created_at": "2023-08-24T18:38:50.747Z",
+        "updated_at": "2023-08-24T11:00:03.882Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48ac04de-331f-431e-a441-9d5cd7d626b1",
+        "name": "Random Forest",
+        "description": "An ensemble learning method for classification and regression",
+        "created_at": "2023-08-24T03:03:51.435Z",
+        "updated_at": "2023-08-24T12:31:27.126Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9059b2b1-75e8-423b-bd89-6dbd7d822ac1",
+        "name": "K-means Clustering",
+        "description": "A partitioning algorithm for grouping data points",
+        "created_at": "2023-08-24T04:50:59.177Z",
+        "updated_at": "2023-08-24T16:33:00.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4f3e517-052e-4f00-9615-d718fd1164c1",
+        "name": "Support Vector Machines",
+        "description": "A supervised learning model for classification and regression",
+        "created_at": "2023-08-24T10:50:12.250Z",
+        "updated_at": "2023-08-24T11:37:59.647Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6554fd64-141a-4452-9642-88636fb746f0",
+        "name": "Neural Networks",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-24T12:38:23.140Z",
+        "updated_at": "2023-08-24T20:16:03.870Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "a17b0774-00d2-48d4-82be-9f54631d906b",
+        "name": "Market Analysis",
+        "description": "Analyzing market trends and consumer behavior",
+        "created_at": "2023-08-24T17:33:37.142Z",
+        "updated_at": "2023-08-24T05:51:26.057Z",
+        "algorithm_id": "0bdfc0d2-5f88-499d-86ef-fba0772d91e2",
+        "stock_id": "882e60e3-acaf-4781-a722-6b9f0aa1ac42"
+      },
+      {
+        "id": "09726306-e3ce-4091-a14b-7140c65b5847",
+        "name": "Customer Segmentation",
+        "description": "Dividing customers into distinct groups based on characteristics",
+        "created_at": "2023-08-24T04:31:15.415Z",
+        "updated_at": "2023-08-24T17:35:26.996Z",
+        "algorithm_id": "0bdfc0d2-5f88-499d-86ef-fba0772d91e2",
+        "stock_id": "c01aca24-ebe4-4d9a-b431-288ffc9aec94"
+      },
+      {
+        "id": "a26b522a-00fd-4090-b6d1-dab10a2d0d1d",
+        "name": "Sentiment Analysis",
+        "description": "Determining sentiment polarity in text data",
+        "created_at": "2023-08-24T16:21:33.609Z",
+        "updated_at": "2023-08-24T00:38:41.432Z",
+        "algorithm_id": "48ac04de-331f-431e-a441-9d5cd7d626b1",
+        "stock_id": "1c4439b4-adfd-409a-82bb-d0d7639465cc"
+      },
+      {
+        "id": "b418b16e-fc3c-46c5-a588-c4bd6969c449",
+        "name": "Fraud Detection",
+        "description": "Identifying fraudulent activities in datasets",
+        "created_at": "2023-08-24T18:23:55.053Z",
+        "updated_at": "2023-08-24T16:39:37.634Z",
+        "algorithm_id": "0bdfc0d2-5f88-499d-86ef-fba0772d91e2",
+        "stock_id": "c7867d89-a01d-4e36-95e6-f5a18a461d73"
+      },
+      {
+        "id": "31078e73-6340-43fb-a3fe-557b319d82b7",
+        "name": "Predictive Modeling",
+        "description": "Creating models to forecast future outcomes",
+        "created_at": "2023-08-24T17:37:07.171Z",
+        "updated_at": "2023-08-24T00:00:37.589Z",
+        "algorithm_id": "48ac04de-331f-431e-a441-9d5cd7d626b1",
+        "stock_id": "1c4439b4-adfd-409a-82bb-d0d7639465cc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "22ed3e9e-6181-4c87-9518-b954aa1c40ac",
+        "email": "Jennyfer_Gulgowski@yahoo.com",
+        "firstName": "Elenora",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b0497ad-8b1b-4931-804c-5f31ecc66511",
+        "email": "Adela93@hotmail.com",
+        "firstName": "Adelbert",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/43.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79a6beb5-5af6-4a1f-b280-0aa8814e3664",
+        "email": "Bruce_Gerhold55@hotmail.com",
+        "firstName": "Russ",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52717986",
+        "tenantId": null
+      },
+      {
+        "reference": "25d1933e-201c-4e95-beb5-400cf00c5b7a",
+        "email": "Jefferey1@gmail.com",
+        "firstName": "Teagan",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87396617",
+        "tenantId": null
+      },
+      {
+        "reference": "a7385fa1-27ba-4e86-ac59-8278facd4e4c",
+        "email": "Justyn.Murray21@hotmail.com",
+        "firstName": "Rosie",
+        "lastName": "Beer-Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80784808",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "4f96ed45-0c3b-4e79-869a-dcf3646807f3",
+        "name": "Apple Inc.",
+        "open_price": 0.5596083754207939,
+        "close_price": 0.4662370334845036,
+        "high": 0.8470844978000969,
+        "low": 0.27039351942948997,
+        "created_at": "2023-08-23T22:09:02.482Z",
+        "updated_at": "2023-08-24T07:49:07.089Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f4682a8c-72fd-4c50-b4de-20c9a958a5d2",
+        "name": "Microsoft Corporation",
+        "open_price": 0.4424522139597684,
+        "close_price": 0.5498409732244909,
+        "high": 0.08839648100547493,
+        "low": 0.9103316152468324,
+        "created_at": "2023-08-24T05:49:16.879Z",
+        "updated_at": "2023-08-23T22:22:40.583Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ecbb087e-4736-4b37-a6ae-d47f81d5b1b5",
+        "name": "Amazon.com Inc.",
+        "open_price": 0.5682197087444365,
+        "close_price": 0.7238357614260167,
+        "high": 0.7362205823883414,
+        "low": 0.15662626014091074,
+        "created_at": "2023-08-24T18:59:06.043Z",
+        "updated_at": "2023-08-24T14:04:05.168Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "84be992e-4ada-4054-ae58-223de54c70f0",
+        "name": "Tesla Inc.",
+        "open_price": 0.580881659174338,
+        "close_price": 0.9818743467330933,
+        "high": 0.4610231928527355,
+        "low": 0.39633179013617337,
+        "created_at": "2023-08-24T05:29:15.346Z",
+        "updated_at": "2023-08-24T18:34:57.689Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "61f9901c-9621-41f6-9fff-68370dd3bf35",
+        "name": "Google LLC",
+        "open_price": 0.7319489649962634,
+        "close_price": 0.8795928889885545,
+        "high": 0.22103912639431655,
+        "low": 0.5722081915009767,
+        "created_at": "2023-08-24T17:57:50.085Z",
+        "updated_at": "2023-08-24T06:46:09.935Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "6697a41d-575d-4d54-8371-871a9780b496",
+        "name": "Linear Regression",
+        "description": "A statistical method for modeling the relationship between variables",
+        "created_at": "2023-08-24T19:25:49.683Z",
+        "updated_at": "2023-08-24T09:41:48.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83e83481-acd9-4035-84d0-3f8ee13f0594",
+        "name": "Random Forest",
+        "description": "An ensemble learning method for classification and regression tasks",
+        "created_at": "2023-08-24T17:53:15.552Z",
+        "updated_at": "2023-08-24T15:49:47.955Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae6e926b-4495-4b4c-9398-6e9d35aee042",
+        "name": "K-Means Clustering",
+        "description": "A clustering algorithm that partitions data into k clusters",
+        "created_at": "2023-08-24T09:11:19.418Z",
+        "updated_at": "2023-08-23T22:09:10.497Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "555edaaa-89a1-431d-884a-2233df26bd62",
+        "name": "Support Vector Machines",
+        "description": "A supervised learning model used for classification and regression tasks",
+        "created_at": "2023-08-23T23:51:50.494Z",
+        "updated_at": "2023-08-24T06:11:39.569Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85deb9fa-aeb0-49a7-b037-2db8ab18acf2",
+        "name": "Neural Networks",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-24T06:02:28.324Z",
+        "updated_at": "2023-08-24T04:32:38.987Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "43430cd7-0c02-4d5f-8fa7-2ff2f36ceafb",
+        "name": "Statistical Analysis",
+        "description": "The process of collecting, cleaning, and interpreting data to uncover patterns and insights",
+        "created_at": "2023-08-24T12:01:43.871Z",
+        "updated_at": "2023-08-24T03:07:05.806Z",
+        "algorithm_id": "555edaaa-89a1-431d-884a-2233df26bd62",
+        "stock_id": "ecbb087e-4736-4b37-a6ae-d47f81d5b1b5"
+      },
+      {
+        "id": "c884734b-4b1d-4dda-8803-24b7a72167ae",
+        "name": "Data Visualization",
+        "description": "The graphical representation of data to facilitate understanding and communication",
+        "created_at": "2023-08-24T06:11:13.498Z",
+        "updated_at": "2023-08-23T22:53:15.066Z",
+        "algorithm_id": "ae6e926b-4495-4b4c-9398-6e9d35aee042",
+        "stock_id": "4f96ed45-0c3b-4e79-869a-dcf3646807f3"
+      },
+      {
+        "id": "3b14df63-6089-407a-9eee-743e7b4232a4",
+        "name": "Predictive Modeling",
+        "description": "The use of statistical models to make predictions based on historical data",
+        "created_at": "2023-08-24T06:32:12.122Z",
+        "updated_at": "2023-08-24T17:14:26.389Z",
+        "algorithm_id": "555edaaa-89a1-431d-884a-2233df26bd62",
+        "stock_id": "4f96ed45-0c3b-4e79-869a-dcf3646807f3"
+      },
+      {
+        "id": "5f418d73-676e-4892-a3a8-f47b9bb4e378",
+        "name": "Text Mining",
+        "description": "The extraction of useful information from unstructured text data",
+        "created_at": "2023-08-24T18:29:45.406Z",
+        "updated_at": "2023-08-24T12:32:55.293Z",
+        "algorithm_id": "555edaaa-89a1-431d-884a-2233df26bd62",
+        "stock_id": "61f9901c-9621-41f6-9fff-68370dd3bf35"
+      },
+      {
+        "id": "d7e51523-731d-402c-8800-9da2824032e8",
+        "name": "Time Series Analysis",
+        "description": "The analysis of data collected over time to identify trends and patterns",
+        "created_at": "2023-08-24T13:38:09.464Z",
+        "updated_at": "2023-08-24T06:38:06.004Z",
+        "algorithm_id": "6697a41d-575d-4d54-8371-871a9780b496",
+        "stock_id": "ecbb087e-4736-4b37-a6ae-d47f81d5b1b5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c887c3ca-145a-47c0-b885-fc41e119a131",
+        "email": "Winifred.Barton13@yahoo.com",
+        "firstName": "Donald",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34276956",
+        "tenantId": null
+      },
+      {
+        "reference": "6b8cdda5-e5bc-46e0-b805-0a10e1e87df6",
+        "email": "Angie80@yahoo.com",
+        "firstName": "Antoinette",
+        "lastName": "Sporer-Larkin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79099333",
+        "tenantId": null
+      },
+      {
+        "reference": "7303af92-0a4d-4950-8cbf-ea7c750a4982",
+        "email": "Norbert_Langworth@gmail.com",
+        "firstName": "Tatyana",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/588.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa73fb80-0acd-45c6-9c28-896ca2460e90",
+        "email": "Gregorio_Sanford@hotmail.com",
+        "firstName": "Loyal",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38710091",
+        "tenantId": null
+      },
+      {
+        "reference": "1c6b93f4-6e96-48a1-8053-e4fe1373987c",
+        "email": "Don.Greenholt@gmail.com",
+        "firstName": "Cora",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/763.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
